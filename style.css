@@ -8,9 +8,14 @@ body {
 
 .principal {
   background-color: aliceblue;
+  padding: 30px;
 }
 
-h1 {
+.titulo-centralizado{
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     color:rgb(0, 0, 0);
     background:;
     text-align: center;
@@ -33,12 +38,20 @@ em strong {
 .itens {
      font-style: italic;
 }
+
 .beneficios{
-    background-color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 100%, 0.906);
+    padding: 20px;
 }
-h2 {
-    text-align: center;
-}
+
+ul {
+     display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+} 
+
 .imagembeneficios {
-    width: 100%;
+    width: 50%;
 }
+
